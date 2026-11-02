@@ -1,9 +1,6 @@
-tensorflow>=2.15
-streamlit>=1.40
-numpy
-pillow
-matplotlib
-scikit-learn
 Flask==3.0.0
 Werkzeug==3.0.1
 gunicorn==21.2.0
+tensorflow-cpu==2.14.0  # استخدم نسخة الـ CPU لتجنب مشاكل التوافق في الباقات المجانية
+pillow==10.0.1
+# أو torch و torchvision إذا كان الموديل مبنياً على PyTorch
